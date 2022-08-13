@@ -40,7 +40,7 @@ jobs:
         uses: docker/build-push-action@v3.0.0
         with:
           file: ./src/Dockerfile
-          context: ./src
+          context: ./kube-news/src
           push: true
           tags: |
             marceelobruno/kube-news:latest
