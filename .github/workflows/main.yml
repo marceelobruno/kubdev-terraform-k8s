@@ -44,7 +44,7 @@ jobs:
           push: true
           tags: |
             marceelobruno/kube-news:latest
-            marceelobruno/kube-news:${{github.run_number}}
+            #marceelobruno/kube-news:${{github.run_number}}
 
 
   
