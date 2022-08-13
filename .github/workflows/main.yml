@@ -42,8 +42,7 @@ jobs:
           file: ./src/Dockerfile
           context: ./kube-news/src
           push: true
-          tags: |
-            marceelobruno/kube-news:latest
+          tags: marceelobruno/kube-news:latest
             #marceelobruno/kube-news:${{github.run_number}}
 
 
